@@ -1,0 +1,14 @@
+
+# Vimb browser configuration
+
+nnoremap q :q<CR>
+
+# Movement
+nnoremap d <C-d>
+nnoremap u <C-u>
+nnoremap j 3j
+nnoremap k 3k
+
+set default-zoom=50
+set status-bar=false
+set input-autohide=true
