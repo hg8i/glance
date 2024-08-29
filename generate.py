@@ -13,7 +13,7 @@ def loadTable():
             if os.path.exists(p):
                 content = open(p,"r").read()
             else:
-                content = f"""<div id="content"> {y}, {x}</div>"""
+                content = f"""<div id="content" style="text-align: center;color:#888;"> {y}, {x}</div>"""
                 # content = f"{y}, {x}"
             table+=f"<td>{content}</td>"
         table+="</tr>"
