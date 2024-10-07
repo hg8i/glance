@@ -8,6 +8,10 @@ nnoremap d <C-d>
 nnoremap u <C-u>
 nnoremap j 3j
 nnoremap k 3k
+nnoremap b <C-o>
+nnoremap w <C-i>
+nnoremap H <C-o>
+nnoremap L <C-i>
 
 nnoremap i 1zI
 nnoremap o 1zO
@@ -15,3 +19,6 @@ nnoremap o 1zO
 set default-zoom=50
 set status-bar=false
 set input-autohide=true
+set offline-cache=false
+
+:cl disk-cache
